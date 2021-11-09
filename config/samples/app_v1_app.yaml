@@ -1,0 +1,10 @@
+apiVersion: app.ktlcove.io/v1
+kind: App
+metadata:
+  name: app-sample
+spec:
+  # Add fields here
+  containers:
+  - name: test
+    image:
+      repository: nginx
